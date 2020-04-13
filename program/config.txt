@@ -1,0 +1,8 @@
+numbers 50000 200 200 
+distance l2_distance_weight 1,1,1,0,0,0
+time matrix 10000 20000 2000
+// time list time_pairs.txt
+input dump% ../data/test_case/
+matrix 1 lagrangian_distance_matrix.txt ../results/distance_matrix/
+list 1 lagrangian_distance_%.txt ../results/distance_list/
+matching 1 matching_%.txt ../results/distance_matching/
